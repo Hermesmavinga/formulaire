@@ -1,0 +1,56 @@
+body{
+    background-image: 
+    url('bodyphoto.jpg');
+    
+    background-attachment: fixed ;
+    background-position: bottom;
+    background-size: cover;
+    background-clip: border-box;
+    background-origin: border-box;
+    color: white;
+    text-align: center;
+    margin: 10;
+    
+
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 120px;
+    text-shadow: 6px 6px 15px rgb(29, 49, 63);
+    box-shadow: 15px 15px 15px white;
+    border-radius: 10px;
+    opacity: 0.9;
+   
+}
+.identif,
+.fac{
+    font-weight: 800;
+}
+
+.demoborder{
+    border: 2px solid rgb(29, 49, 63);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+.ombre{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: red;
+    text-decoration-color: blue;
+}
+h1:hover{
+    opacity: 0.5;
+}
+ 
+
+

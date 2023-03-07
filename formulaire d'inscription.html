@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire d'inscription</title>
+    <link href="formulaire.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Page d'inscription</h1>
+    </header>
+    
+    <form>
+        <fieldset>
+            <legend class="identif">Identification de l'étudiant</legend>
+            <label for="nom">Nom</label><br>
+            <input type="text" id="nom" name="nom" /><br>
+            <label for="postnom">Post-nom</label><br>
+            <input type="text" id="postnom" name="postnom" /><br>
+            <label for="prenom">Prénom</label><br>
+            <input type="text" id="prenom" name="prenom" /><br>
+            <label for="sexe">Sexe</label><br>
+            <input type="radio" name="sexe" value="masculin" />Masculin<br>
+            <input type="radio" name="sexe" value="feminin" />Féminin<br>
+            <label for="email">E-mail</label><br>
+            <input type="email" id="email" name="email" size="30" /><br>
+            <label for="date de naissance">Date de naissance</label><br>
+            <input type="date" id="date de naissance" name="date de naissance"/><br>
+            <label for="telephone">Téléphone</label><br>
+            <input type="tel" id="telephone" name="telephone"/><br>
+            <label for="adresse">Adresse</label><br>
+            <input type="text" id="adresse" name="adresse"/><br>
+            <label for="nationalité">Nationalité</label><br>
+            <select>
+                <option value="belge">Belge</option>
+                <option value="camerounais">Camerounais</option>
+                <option value="italien">Italien</option>
+            </select>
+            
+
+           
+            
+            
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="fac">Choix de la faculté</legend>
+            <select>
+                <option value="sciences informatiques">Sciences informatiques</option>
+                <option value="medecine">Médecine</option>
+                <option value="communication et sociale">Communication et sociale</option>
+                <option value="droit canonique">Droit canonique</option>
+                <option value="économie et developpement">Economie et developpement</option>
+                <option value="theologie et philosophie">Théologie et philosophie</option><br>
+            
+            </select>
+        </fieldset>
+
+    </form>
+    <br>
+    <form>
+        <label for="description">Decrivez-vous sur ce champ</label><br>
+        <textarea class="ombre" id="description" rows="10" cols="40" name="description"></textarea><br>
+        <input class="demoborder" type="submit" id="validation" name="validation" value="envoyer"/>
+    </form>
+
+    <footer class="footer">
+        <a href="https//:www.facebook.com" target="_blank">Facebook</a>
+        <a href="https//:www.instagram.com" target="_blank">Instagram</a>
+        <a href="https//:www.twitter.com" target="_blank">Twitter</a>
+    </footer>
+
+</body>
+</html>
